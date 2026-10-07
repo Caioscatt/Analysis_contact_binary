@@ -1,0 +1,35 @@
+
+{
+  "asteroid_name": "Binary_Analysis",
+  "blender_path": "",
+  "starting_date": "2026-01-01 00:00:00",
+  "finish_date": "2026-01-01 03:00:00",
+  "timestep_minutes": 5,
+  "spin_ra": 0.0,
+  "spin_dec": 90.0,
+  "W0": 0.0,
+  "camera_orthoscale": 400.0,
+  "P_hours": 3.0,
+
+  "observation_illumination": {
+    "earth_ra": 0.0,
+    "earth_dec": 0.0,
+    "sun_ra": 0.0,
+    "sun_dec": 0.0
+  },
+
+  "binary_parameters": {
+    "secondary_radius": 50
+  },
+
+  "sweep_config": {
+    "enabled": true,
+    "mode": "1D",      
+    "param1": {
+      "name": "secondary_radius",
+      "start": 50,
+      "step": 0,
+      "count": 1
+    }
+  }
+}
